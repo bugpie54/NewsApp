@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="more_info_icon">More info icon</string>
+    <string name="no_articles">Problem occurred while downloading the articles,  please try again.</string>
+    <string name="no_internet_connection">Check your internet connection and try again.</string>
+    <string name="settings_title">News settings</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="choose_tag">News tag</string>
+    <string name="tags">Choose from tags</string>
+    //news tags for array list
+    <string name="all">All news</string>
+    <string name="world">World news</string>
+    <string name="business">Business</string>
+    <string name="sport">Sport</string>
+    <string name="environment">Environment</string>
+</resources>

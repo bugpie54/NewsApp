@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/layout_padding_horizontal"
+    android:paddingLeft="@dimen/layout_padding_horizontal"
+    android:paddingRight="@dimen/layout_padding_horizontal"
+    android:paddingStart="@dimen/layout_padding_horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/titleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="From oil use to ocean pollution: five facts about the plastics industry" />
+
+        <TextView
+            android:id="@+id/section_name"
+            style="@style/detailsTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            tools:text="Guardian Sustainable Business" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/view_margin_horizontal"
+        android:layout_marginStart="@dimen/view_margin_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/detailsTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin_vertical"
+            android:maxLines="1"
+            tools:text="Hannah Gould" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/detailsTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margin_vertical"
+            android:maxLines="1"
+            tools:text="2018-04-20" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/view_margin_horizontal"
+        android:layout_marginStart="@dimen/view_margin_horizontal"
+        android:contentDescription="@string/more_info_icon"
+        android:src="@mipmap/more_info" />
+
+
+</LinearLayout>
